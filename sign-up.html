@@ -14,119 +14,65 @@
     </head>
     <body>
        
-        <header>
-            
+        <section class="section-fixed-nav">
             <nav>
                 <div class="row">
                 
-                    <img src="resources/css/img/logo.png" alt="WeReaders" class="logo">
-                  
-
-                    <ul class="main-nav">
-                        <li><a href="#">Featured Books</a></li>
-                        <li><a href="#">classics</a></li>
-                        <li><a href="#">fiction</a></li>
-                        <li><a href="#">biographies</a></li>
+                    <ul class="fixed-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">contact us 2</a></li>
                     
                     </ul>
-                  
+                    <section class="section-cart">
+             
+        
+             
+                        <div>  <ul class="cart">
+                        <li><a href="sign-up.html">SIGN UP </a></li>
+                        <li><a href="#">Cart <i class="icon ion-md-cart"></i></a></li>
+                      </ul></div>
+            
+                    </section>
+                    
                 </div>
             
             </nav>
-            
-            <div class="hero-text-box">
-                
-                <h1>The ones who lead.<br> Are the ones who read.</h1>
-                <a class="btn btn-full" href="#">recommendations</a>
-                
-                <a class="btn btn-ghost" href="#">sign up</a>
+
         
-    
-            
-            
-            </div>
-           
+          </section> 
+
+          <section class="section-form">
+
         
-        </header>   
-        
-        <section class="section-form">
+          <div class="form">
             <div class="row">
                 <h2>sign Up</h2>
             </div>
-            <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="row">
-                        <div > 
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Username" required>
-                        </div>
-                        
-                    </div>
-                 
-                            <label for="email">Email</label>
-                       
-                            <input type="Email" name="email" id="email" placeholder="Email" required>
-                      
-                    </div>
-                    
+                 <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Username" required>
                 </div>
-                 
-              <div>
-                <label for="password">Password</label>
-
-                <input type="password" name="password" id="password" placeholder="password" required>     
-              </div>  
-       
-
-                    <div class="row">
-                        <div class="col span-1-of-3"> 
-                            <label for="find-us">How did you find us</label>
-                        </div>
-                        <div class="col span-2-of-3"> 
-                            <select name="find-us" id="find-us">
-                                <option value="friends">Friends</option>
-                                <option value="search" selected>Search Engine</option>
-                                <option value="other">Other</option> 
-                            </select>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="row">
-                        <div class="col span-1-of-3"> 
-                            <label for="news">Check box</label>
-                        </div>
-                        <div class="col span-2-of-3"> 
-                            <input type="checkbox" name="news" id="news" checked> yes, please
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col span-1-of-3"> 
-                            <label for="message">Drop us a line</label>
-                        </div>
-                        <div class="col span-2-of-3"> 
-                            <textarea name="message" placeholder="Your message"></textarea>
-                        </div>
-                    </div>
-                    
-                     <div class="row">
-                        <div class="col span-1-of-3"> 
-                            <label>&nbsp;</label>
-                        </div>
-                        <div class="col span-2-of-3"> 
-                           <input type="submit" value="Send it!">
-                        </div>
-                    </div>
-                    
-                    
-                </form> 
-            
-            
+                <div>
+                    <label for="name">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="Password">Password</label><br>
+                    <input type="Password" name="Password" id="Password" placeholder="Password" required>
+                </div>
+                <div>
+                    <input type="submit" value="Send it!">
+                </div>
+         
+                
             </div>
-        </div>>
-        </section>
-
+          </section>
+   
+            
+           
+     
    
         
         <footer>
@@ -176,3 +122,66 @@
 </html>
 
 
+<!-- <div class="row">
+    <div > 
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Username" required>
+    </div>
+    
+</div>
+
+        <label for="email">Email</label>
+   
+        <input type="Email" name="email" id="email" placeholder="Email" required>
+  
+</div>
+
+</div>
+
+<div>
+<label for="password">Password</label>
+
+<input type="password" name="password" id="password" placeholder="password" required>     
+</div>  
+
+
+<div class="row">
+    <div class="col span-1-of-3"> 
+        <label for="find-us">How did you find us</label>
+    </div>
+    <div class="col span-2-of-3"> 
+        <select name="find-us" id="find-us">
+            <option value="friends">Friends</option>
+            <option value="search" selected>Search Engine</option>
+            <option value="other">Other</option> 
+        </select>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col span-1-of-3"> 
+        <label for="news">Check box</label>
+    </div>
+    <div class="col span-2-of-3"> 
+        <input type="checkbox" name="news" id="news" checked> yes, please
+    </div>
+</div>
+
+<div class="row">
+    <div class="col span-1-of-3"> 
+        <label for="message">Drop us a line</label>
+    </div>
+    <div class="col span-2-of-3"> 
+        <textarea name="message" placeholder="Your message"></textarea>
+    </div>
+</div>
+
+ <div class="row">
+    <div class="col span-1-of-3"> 
+        <label>&nbsp;</label>
+    </div>
+    <div class="col span-2-of-3"> 
+       <input type="submit" value="Send it!">
+    </div>
+</div> -->

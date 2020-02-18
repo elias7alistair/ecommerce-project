@@ -339,13 +339,46 @@ input[type="submit"],
   transform: scale(1.03);
 }
 
+
+.section-form{
+  width: 200px;
+  margin: 112px auto;
+  padding: 12px;
+}
+
+.form{
+  width: auto;
+}
+
+
+
+label{
+  text-align: left;
+  font-size: 29px;
+}
+input
+{
+     border-radius: 5px; 
+    outline: none;
+    border: none;
+ 
+    border: 1px solid rgb(68, 56, 56);
+    padding: 5px;
+    margin: auto;
+    background: none;
+}
+.form input{
+  margin-bottom  : 10px;
+}
 /*---------------------------------------*/
 /*form*/
 /*---------------------------------------*/
+/* 
 
-.section-form {
-  width: 60%;
-  margin: 0 auto;
+
+.contact-form label{
+  margin: 92px 0px;
+  font-size: 32px;
 }
 
 input[type="text"],
@@ -358,17 +391,11 @@ textarea {
   border: 1px solid #ccc;
 }
 
-textarea {
-  height: 100px;
-}
 
-input[type="checkbox"] {
-  margin: 10px 5px 10px 0;
-}
 
 *:focus {
   outline: none;
-}
+}  */
 
 /*---------------------------------------*/
 /*Footer*/
